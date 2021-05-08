@@ -1,4 +1,142 @@
-h1 {
-  color: blueviolet;
-  font-family: Arial, Helvetica, sans-serif;
+* {
+  font-family: "Questrial", sans-serif;
+  color: #7dc2ba;
+}
+
+.container {
+  margin-top: 50px;
+  border: solid 1px rgb(250, 246, 246);
+  border-radius: 55px;
+  padding: 70px;
+  height: 862px;
+  width: 600px;
+  background-image: url("../img/moon.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.city-time {
+  padding: 0;
+}
+.current-time {
+  font-size: 14px;
+}
+.city {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-top: 8px;
+}
+.search-form {
+  padding: 0;
+}
+.findCity {
+  color: black;
+  font-size: 14px;
+  border: 0.5px solid white;
+  border-radius: 15px;
+  padding: 6px 10px 5px;
+}
+
+.search-button {
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  font-size: 16px;
+  padding: 3px 7px;
+}
+
+.search {
+  text-align: right;
+  padding-top: 10px;
+}
+.current-location {
+  font-size: 13px;
+  background: transparent;
+  border: none;
+  padding: 8px 6px 5px;
+  margin-left: 82px;
+}
+.current-location:hover {
+  text-decoration: underline;
+}
+.current-weather {
+  text-align: center;
+  margin: 115px 0 100px;
+}
+.current-time {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+#icon {
+  font-size: 800px;
+  width: 125px;
+}
+.current-temperature {
+  font-size: 55px;
+  font-weight: 400;
+  padding-left: 5px;
+  margin-bottom: 15px;
+}
+.units {
+  font-size: 17px;
+  top: -1.4em;
+}
+.units a {
+  color: white;
+  text-decoration: none;
+}
+.units a:hover {
+  text-decoration: underline;
+}
+.description {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.weather-description {
+  font-size: 16px;
+}
+.week-weather {
+  font-size: 18px;
+  padding: 30px 0;
+  text-align: center;
+  margin-top: 110px;
+}
+.week-icons {
+  font-size: 25px;
+}
+.predicted-weather {
+  padding: 0;
+}
+.coder {
+  color: black;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+}
+.coder a {
+  color: black;
+}
+
+.fa-github-square {
+  color: #160715;
+  font-size: 1.5rem;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.fa-linkedin {
+  color: #3a1cbd;
+  font-size: 1.5rem;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.links {
+  background-color: #93b4b0;
+  opacity: 0.9;
+  border: 1px solid rgb(140, 188, 228);
+  border-radius: 25px;
+  transition: 200ms all ease-in-out;
+  font-size: 15px;
 }
