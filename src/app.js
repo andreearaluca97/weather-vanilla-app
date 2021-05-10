@@ -1,4 +1,9 @@
-let apiKey = "d4344c6ea95063be2031ed54ff742e0b";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Madrid&appid=${apiKey}`;
+function displayTemperature(response) {
+  console.log(response.data.main.temp);
+}
 
-console.log(apiUrl);
+let apiKey = "d4344c6ea95063be2031ed54ff742e0b";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Madrid&appid=${apiKey}&units=metric`;
+let units = console.log(apiUrl);
+
+axios.get(apiUrl).then(displayTemperature);
