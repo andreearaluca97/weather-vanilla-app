@@ -10,7 +10,7 @@
   padding: 70px;
   height: 862px;
   width: 600px;
-  background-image: url("../img/moon.gif");
+  background-image: url("../img/wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -26,39 +26,7 @@
   text-transform: capitalize;
   padding-top: 8px;
 }
-.search-form {
-  padding: 0;
-}
-.findCity {
-  color: black;
-  font-size: 14px;
-  border: 0.5px solid white;
-  border-radius: 15px;
-  padding: 6px 10px 5px;
-}
 
-.search-button {
-  background: transparent;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 50%;
-  font-size: 16px;
-  padding: 3px 7px;
-}
-
-.search {
-  text-align: right;
-  padding-top: 10px;
-}
-.current-location {
-  font-size: 13px;
-  background: transparent;
-  border: none;
-  padding: 8px 6px 5px;
-  margin-left: 82px;
-}
-.current-location:hover {
-  text-decoration: underline;
-}
 .current-weather {
   text-align: center;
   margin: 115px 0 100px;
@@ -69,8 +37,9 @@
   margin: 10px 0;
 }
 #icon {
-  font-size: 800px;
-  width: 125px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 .current-temperature {
   font-size: 55px;
@@ -95,18 +64,23 @@
 }
 .weather-description {
   font-size: 16px;
+  color: #31062e;
+  font-weight: bold;
 }
 .week-weather {
   font-size: 18px;
   padding: 30px 0;
   text-align: center;
   margin-top: 110px;
+
+  font-weight: bold;
 }
 .week-icons {
   font-size: 25px;
 }
 .predicted-weather {
   padding: 0;
+  color: #d8d29e;
 }
 .coder {
   color: black;
@@ -139,4 +113,58 @@
   border-radius: 25px;
   transition: 200ms all ease-in-out;
   font-size: 15px;
+}
+
+#current-location {
+  opacity: 0.9;
+  color: rgb(208, 178, 236);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 40px;
+  transition: 200ms all ease-in-out;
+}
+#current-location:hover {
+  color: blueviolet;
+  opacity: 0.9;
+  font-size: 40px;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  color: rgb(208, 178, 236);
+}
+
+.navbar {
+  background-color: #915b8c;
+  border-radius: 10px;
+  margin-top: 10px;
+  opacity: 0.7;
+  transition: 200ms all ease-in-out;
+}
+
+.navbar:hover {
+  background-color: rgb(243, 169, 57);
+}
+
+.btn {
+  background-color: rgb(8, 8, 8);
+  opacity: 0.9;
+  border: 1px solid rgb(7, 7, 7);
+  border-radius: 25px;
+  transition: 200ms all ease-in-out;
+  font-size: 20px;
+}
+
+.form-control {
+  background-color: rgb(238, 238, 238);
+  font-size: 22px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+
+hr {
+  color: #160715;
+  border: 2px solid rgb(243, 169, 57);
 }

@@ -23,6 +23,11 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <link rel="stylesheet" href="src/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -31,17 +36,28 @@
           <h2 class="city"></h2>
           <h4 class="current-time"></h4>
         </div>
-        <div class="col search-form">
-          <form class="search">
-            <input type="text" placeholder="Search city" class="findCity" />
-            <button type="submit" class="search-button">
-              <i class="bx bx-search"></i>
+        <nav class="navbar">
+          <form class="d-flex" id="search-form">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search for a city"
+              aria-label="Search"
+              id="search-city"
+            />
+            <button class="btn" type="submit" id="search-icon" value="search">
+              <i class="fas fa-search-location"></i>
             </button>
+
+            <a href="#"
+              ><i
+                class="fas fa-map-marker-alt current-location-icon"
+                aria-hidden="true"
+                id="current-location"
+              ></i
+            ></a>
           </form>
-          <button class="current-location">
-            <i class="bx bxs-map"></i> Current location
-          </button>
-        </div>
+        </nav>
       </div>
       <div class="current-weather">
         <img
@@ -65,7 +81,9 @@
           </h4>
         </h1>
       </div>
+
       <div class="week-weather">
+        <br />
         <div class="row days">
           <div class="col predicted-weather">Thu</div>
 
