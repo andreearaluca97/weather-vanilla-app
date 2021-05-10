@@ -120,13 +120,13 @@
   color: rgb(208, 178, 236);
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 40px;
+  font-size: 44px;
   transition: 200ms all ease-in-out;
 }
 #current-location:hover {
   color: blueviolet;
   opacity: 0.9;
-  font-size: 40px;
+  font-size: 44px;
 }
 
 .btn:hover {
@@ -149,7 +149,7 @@
 .btn {
   background-color: rgb(8, 8, 8);
   opacity: 0.9;
-  border: 1px solid rgb(7, 7, 7);
+
   border-radius: 25px;
   transition: 200ms all ease-in-out;
   font-size: 20px;
