@@ -49,20 +49,40 @@
 }
 .units {
   font-size: 17px;
-  top: -1.4em;
+  top: -1.5em;
 }
 .units a {
-  color: white;
   text-decoration: none;
+  font-size: 16px;
+  color: #31062e;
+  font-weight: bold;
 }
 .units a:hover {
   text-decoration: underline;
 }
-.description {
-  font-size: 18px;
-  text-transform: capitalize;
-}
+
 .weather-description {
+  font-size: 20px;
+  color: #31062e;
+  font-weight: bold;
+}
+
+.weather-humidity {
+  font-size: 16px;
+  color: #31062e;
+  font-weight: bold;
+}
+.weather-wind {
+  font-size: 16px;
+  color: #31062e;
+  font-weight: bold;
+}
+h1 {
+  font-size: 25px;
+  color: #31062e;
+  font-weight: bold;
+}
+.temperature {
   font-size: 16px;
   color: #31062e;
   font-weight: bold;
