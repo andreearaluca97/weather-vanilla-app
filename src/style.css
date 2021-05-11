@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: linear-gradient(to top, #e6d5d5 0%, #a676d3 100%);
+  background-image: linear-gradient(to top, #c2acca 0%, #e8e0ef 100%);
 }
 .container {
   margin-top: 50px;
@@ -52,33 +52,35 @@ body {
 
 .weather-description {
   font-size: 20px;
-  color: #491346;
+  color: #e6cd9f;
+  text-shadow: 2px 2px 3px #0d0d0e;
   font-weight: bold;
   text-transform: capitalize;
 }
 
 .weather-humidity {
   font-size: 16px;
-  color: #491346;
+  color: #b885b5;
+  text-shadow: 2px 2px 3px #0d0d0e;
   font-weight: bold;
 }
 .weather-wind {
   font-size: 16px;
-  color: #491346;
   font-weight: bold;
+  color: #b885b5;
+  text-shadow: 2px 2px 3px #0d0d0e;
 }
 h1 {
-  font-size: 25px;
-  color: #31062e;
+  font-size: 32px;
+  color: #3a2038;
+  text-shadow: 2px 2px 3px #a464b9;
   font-weight: bold;
 }
 .temperature {
   font-family: "Dancing Script", cursive;
-
   text-align: center;
-
-  font-size: 2rem;
-  text-shadow: 2px 2px rgb(8, 8, 8);
+  font-size: 35px;
+  text-shadow: 2px 2px rgb(63, 24, 60);
   padding: 8px;
   margin: 1px;
   color: #915b8c;
@@ -96,7 +98,8 @@ h1 {
 }
 .predicted-weather {
   padding: 0;
-  color: #deceec;
+  color: #e6cd9f;
+  text-shadow: 2px 2px 3px #0d0d0e;
 }
 .coder {
   color: black;
@@ -189,7 +192,7 @@ h3 {
   font-family: "Questrial", sans-serif;
   text-align: center;
 
-  font-size: 1rem;
+  font-size: 16px;
   padding: 15px;
   margin: 5px;
   color: #915b8c;
@@ -204,9 +207,9 @@ h3 {
   text-align: center;
 
   font-size: 1.7rem;
-  text-shadow: 2px 2px rgb(8, 8, 8);
   padding: -6px;
   margin: -3px;
+  text-shadow: 2px 2px rgb(63, 24, 60);
   color: #915b8c;
 }
 
@@ -216,7 +219,7 @@ h3 {
   text-align: center;
 
   font-size: 1.7rem;
-  text-shadow: 2px 2px rgb(8, 8, 8);
+  text-shadow: 2px 2px rgb(63, 24, 60);
   padding: -6px;
   margin: 3px;
   color: #915b8c;
@@ -231,4 +234,7 @@ h3 {
   display: block;
   margin: 0 auto;
   padding: 2px;
+  text-shadow: 2px 2px #5e5803;
+  color: #e6cd9f;
+  font-weight: bold;
 }
