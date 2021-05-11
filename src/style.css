@@ -3,6 +3,9 @@
   color: #7dc2ba;
 }
 
+body {
+  background-image: linear-gradient(to top, #e6d5d5 0%, #a676d3 100%);
+}
 .container {
   margin-top: 50px;
   border: solid 1px rgb(250, 246, 246);
