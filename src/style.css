@@ -1,6 +1,5 @@
 * {
   font-family: "Questrial", sans-serif;
-  color: #7dc2ba;
 }
 
 body {
@@ -53,18 +52,19 @@ body {
 
 .weather-description {
   font-size: 20px;
-  color: #31062e;
+  color: #491346;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 .weather-humidity {
   font-size: 16px;
-  color: #31062e;
+  color: #491346;
   font-weight: bold;
 }
 .weather-wind {
   font-size: 16px;
-  color: #31062e;
+  color: #491346;
   font-weight: bold;
 }
 h1 {
