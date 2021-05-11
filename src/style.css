@@ -44,7 +44,6 @@ body {
   line-height: 1.5;
 }
 .current-temperature {
-  font-size: 55px;
   font-weight: 400;
   padding-left: 5px;
   margin-bottom: 15px;
@@ -89,7 +88,7 @@ h1 {
   font-size: 18px;
   padding: 30px 0;
   text-align: center;
-  margin-top: -45px;
+  margin-top: -73px;
 
   font-weight: bold;
 }
@@ -237,4 +236,13 @@ h3 {
   text-shadow: 2px 2px #5e5803;
   color: #e6cd9f;
   font-weight: bold;
+}
+
+#date {
+  font-size: 20px;
+  color: #e6cd9f;
+  text-shadow: 2px 2px 3px #0d0d0e;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: -10px;
 }
