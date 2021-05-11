@@ -240,9 +240,23 @@ h3 {
 
 #date {
   font-size: 20px;
-  color: #e6cd9f;
-  text-shadow: 2px 2px 3px #0d0d0e;
+  color: #fadda7;
+  text-shadow: 2px 2px 3px #000000;
   font-weight: bold;
   text-transform: capitalize;
   margin-top: -10px;
+  font-family: "Dancing Script", cursive;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+li {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  text-shadow: 2px 2px 3px #e6cd9f;
 }
