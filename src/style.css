@@ -131,7 +131,7 @@ h1 {
 #current-location {
   opacity: 0.9;
   color: rgb(208, 178, 236);
-  margin-left: 10px;
+  margin-left: 90px;
   margin-right: 10px;
   font-size: 44px;
   transition: 200ms all ease-in-out;
@@ -217,4 +217,8 @@ h3 {
   padding: -6px;
   margin: 3px;
   color: #915b8c;
+}
+
+#search-city {
+  margin-left: 2px;
 }
