@@ -42,8 +42,20 @@ function displayTemperature(response) {
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
 }
 
-let apiKey = "d4344c6ea95063be2031ed54ff742e0b";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Madrid&appid=${apiKey}&units=metric`;
-let units = console.log(apiUrl);
+function search(city) {
+  let apiKey = "d4344c6ea95063be2031ed54ff742e0b";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
-axios.get(apiUrl).then(displayTemperature);
+  axios.get(apiUrl).then(displayTemperature);
+}
+
+function handleSubmit(event) {
+  event.preventDefault();
+  let searchCityElement = document.querySelector("#search-city");
+  search(searchCityElement.value);
+}
+
+search("Madrid");
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit);
