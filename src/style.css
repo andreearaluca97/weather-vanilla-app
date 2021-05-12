@@ -83,6 +83,7 @@ h1 {
   padding: 8px;
   margin: 1px;
   color: #915b8c;
+  cursor: default;
 }
 .week-weather {
   font-size: 18px;
@@ -200,11 +201,11 @@ h3 {
   font-weight: bold;
 }
 
-#fah-link {
+#fahrenheit-link {
   font-family: "Dancing Script", cursive;
 
   text-align: center;
-
+  cursor: default;
   font-size: 1.7rem;
   padding: -6px;
   margin: -3px;
@@ -214,7 +215,7 @@ h3 {
 
 #celsius-link {
   font-family: "Dancing Script", cursive;
-
+  cursor: default;
   text-align: center;
 
   font-size: 1.7rem;
