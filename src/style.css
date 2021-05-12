@@ -12,7 +12,7 @@ body {
   padding: 70px;
   height: 862px;
   width: 600px;
-  background-image: url("../img/wallpaper.jpg");
+  background-image: url("../img/purple.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -51,23 +51,23 @@ body {
 
 .weather-description {
   font-size: 20px;
-  color: #e6cd9f;
-  text-shadow: 2px 2px 3px #0d0d0e;
+
+  text-shadow: 2px 2px 3px #e6cd9f;
   font-weight: bold;
   text-transform: capitalize;
 }
 
 .weather-humidity {
   font-size: 16px;
-  color: #b885b5;
-  text-shadow: 2px 2px 3px #0d0d0e;
+
+  text-shadow: 2px 2px 3px #e6cd9f;
   font-weight: bold;
 }
 .weather-wind {
   font-size: 16px;
   font-weight: bold;
-  color: #b885b5;
-  text-shadow: 2px 2px 3px #0d0d0e;
+
+  text-shadow: 2px 2px 3px #e6cd9f;
 }
 h1 {
   font-size: 32px;
@@ -97,8 +97,8 @@ h1 {
 }
 .predicted-weather {
   padding: 0;
-  color: #e6cd9f;
-  text-shadow: 2px 2px 3px #0d0d0e;
+  color: #44115c;
+  text-shadow: 2px 2px 3px #c4a961;
 }
 .coder {
   color: black;
