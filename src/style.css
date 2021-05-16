@@ -151,8 +151,8 @@ h1 {
 }
 
 .btn:hover {
-  background-color: whitesmoke;
-  color: rgb(208, 178, 236);
+  background-color: blueviolet;
+  color: rgb(7, 7, 7);
 }
 
 .navbar {
