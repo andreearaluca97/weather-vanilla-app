@@ -59,6 +59,24 @@ function search(city) {
   axios.get(apiUrl).then(displayTemperature);
 }
 
+function showPosition(position) {
+  let lat = position.coords.latitude;
+  let long = position.coords.longitude;
+  let units = "metric";
+  let apiKey = "d4344c6ea95063be2031ed54ff742e0b";
+  let apiSite = "https://api.openweathermap.org/data/2.5/weather?";
+  let apiUrl = `${apiSite}lat=${lat}&lon=${long}&appid=${apiKey}&units=${units}`;
+  axios.get(apiUrl).then(displayTemperature);
+}
+
+function showCurrentPosition(event) {
+  event.preventDefault();
+  navigator.geolocation.getCurrentPosition(showPosition);
+}
+
+let button = document.querySelector("#current-location");
+button.addEventListener("click", showCurrentPosition);
+
 function handleSubmit(event) {
   event.preventDefault();
   let searchCityElement = document.querySelector("#search-city");
@@ -90,3 +108,4 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("Madrid");
+displayForecast();
