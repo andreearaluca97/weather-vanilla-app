@@ -6,11 +6,12 @@ body {
   background-image: linear-gradient(to top, #c2acca 0%, #e8e0ef 100%);
 }
 .container {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border: solid 1px rgb(250, 246, 246);
   border-radius: 55px;
   padding: 70px;
-  height: 862px;
+  height: 885px;
   width: 600px;
   background-image: url("../img/purple.jpg");
   background-repeat: no-repeat;
@@ -97,11 +98,10 @@ h1 {
 
 .weather-forecast-date {
   font-size: 18px;
-  opacity: 0.6;
 }
 
 .weather-forecast-temperatures {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .weather-forecast-temperature-min {
