@@ -87,14 +87,27 @@ h1 {
   color: #915b8c;
   cursor: default;
 }
-.week-weather {
+.weather-forecast {
   font-size: 18px;
   padding: 30px 0;
   text-align: center;
   margin-top: -73px;
-
   font-weight: bold;
 }
+
+.weather-forecast-date {
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.weather-forecast-temperatures {
+  font-size: 18px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
 .week-icons {
   font-size: 25px;
 }
