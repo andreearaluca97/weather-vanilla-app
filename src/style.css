@@ -185,6 +185,7 @@ h1 {
   border-radius: 25px;
   transition: 200ms all ease-in-out;
   font-size: 20px;
+  margin-left: 20px;
 }
 
 .form-control {
